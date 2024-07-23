@@ -3,6 +3,7 @@ from loguru import logger
 from data_juicer.config import init_configs
 from data_juicer.core import Executor
 
+import data_juicer.ops.mapper.zhtw_punct_mapper
 
 @logger.catch(reraise=True)
 def main():
